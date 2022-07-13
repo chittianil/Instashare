@@ -1,0 +1,243 @@
+.user-Details-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-Details-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  min-height: 100vh;
+}
+
+.profile-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+.profile-img {
+  border-radius: 120px;
+  height: 250px;
+  width: 250px;
+  margin-right: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-img {
+    height: 100px;
+    width: 100px;
+    margin-right: 40px;
+  }
+}
+
+.user-post-detail-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  width: 100%;
+}
+
+.user-follower-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.user-story-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+
+  margin-top: 10px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .user-story-container {
+    flex-direction: row;
+  }
+}
+.story-item {
+  margin-left: 10px;
+  list-style-type: none;
+}
+
+.user-story {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+}
+
+.user-story:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s;
+}
+.users-all-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-all-post-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+
+  margin-top: 10px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.all-post-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+
+  margin-top: 10px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.all-post-img {
+  margin-right: 10px;
+}
+
+.posted-img {
+  height: 200px;
+  width: 200px;
+}
+
+.posted-img:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s;
+}
+.post-count {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #171613;
+}
+
+.user-all-post-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid rgb(243, 243, 243);
+  width: 100%;
+  max-width: 1110px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+.profile-name {
+  height: 30px;
+  font-family: 'Roboto';
+  color: #0e0b40;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-name {
+    font-size: 20px;
+    margin: 0px;
+  }
+}
+.no-post-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.No-post-available {
+  height: 100px;
+  width: 100px;
+}
+
+.home-page-btn {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 10px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.no-found-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+  color: #989898;
+}
+@media screen and (max-width: 768px) {
+  .no-found-heading {
+    font-size: 20px;
+  }
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure-img {
+  height: 300px;
+  width: 300px;
+}
+@media screen and (max-width: 768px) {
+  .failure-img {
+    height: 150px;
+    width: 15px;
+  }
+}
+.no-post-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  color: #989898;
+}
+.count {
+  font-weight: bold;
+}
+
+.nav-bg-dark {
+  background-color: #000000;
+}
+
+.nav-bg-light {
+  background-color: #ffffff;
+}
+
+.list-text-light-theme {
+  color: #262626;
+}
+
+.list-text-dark-theme {
+  color: #ffffff;
+}
